@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-image: url('https://img.huffingtonpost.com/asset/6006f46d24000073000b7f7c.jpeg?cache=OhBNgQqpXV&ops=1778_1000.jgp');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		form {
+			margin: auto;
+			width: 50%;
+			text-align: left;
+			padding: 40px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #ccc;
+			background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+		}
+
+		input[type="text"], input[type="email"], input[type="tel"], input[type="password"], select {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px #ccc;
+		}
+
+		label {
+			font-weight: bold;
+			margin-top: 20px;
+			display: block;
+		}
+
+		.submit-button {
+			display: block;
+			background-color: #3B9C9C;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			cursor: pointer;
+			margin-top: 20px;
+			font-size: 16px;
+			box-shadow: 0px 0px 5px #ccc;
+		}
+
+		.submit-button:hover {
+			background-color: #2C7878;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			font-size: 36px;
+			color: #DBE9FA;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Registration Form</h1>
+	<form action="#" method="post">
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" required>
+
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" required>
+
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address" required>
+
+		<label for="contact_number">Contact Number:</label>
+		<input type="tel" id="contact_number" name="contact_number" required>
+
+		<label for="birth_certificate">Birth Certificate Number:</label>
+		<input type="text" id="birth_certificate" name="birth_certificate" required>
+
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required>
+<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<label for="vaccine_center">Preferred Vaccine Center:</label>
+		<select id="vaccine_center" name="vaccine_center">
+			<option value="center1">Vaccine Center 1</option>
+	<option value="center2">Vaccine Center 2</option>
+	<option value="center3">Vaccine Center 3</option>
+	<option value="center4">Vaccine Center 4</option>
+	<option value="center5">Vaccine Center 5</option>
+	<input type="submit" value="Submit" class="submit-button">
+</form>
+</body>
+</html>
+			
+	
